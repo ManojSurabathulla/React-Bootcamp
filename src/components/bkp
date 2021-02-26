@@ -48,3 +48,29 @@ class App extends Component {
     );
   }
 }
+
+ <div className="heading">
+      <h1>gartner</h1>
+      <div className="heading-navs">
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>

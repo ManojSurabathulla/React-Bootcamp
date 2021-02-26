@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Sidenav from "./components/Sidenav";
+import Headingone from "./components/Headingone";
+import Para from "./components/Para";
 import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="React">
         <Header />
-        <Sidenav />
+        <Headingone />
+        <Para />
         <hr />
         <Footer />
       </div>
